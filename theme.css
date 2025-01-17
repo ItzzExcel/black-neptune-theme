@@ -131,10 +131,9 @@
 
 [class^="tableRow"] {
     color: rgb(170, 170, 170) !important;
-    border-radius: 0px !important;
 }
 
-[class^="tableRow"]:hover {
+[class^="tableRow"]:hover, [data-test-is-playing="true"] {
     color: white !important;
 }
 
