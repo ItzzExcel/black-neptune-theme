@@ -4,7 +4,7 @@ Full black and white theme for the TIDAL modificated client, Neptune. Based in t
 ## Installation
 Enter this URL in your Neptune Themes.
 ```
-https://raw.githubusercontent.com/ItzzExcel/black-neptune-theme/refs/heads/main/shadowx.css
+https://raw.githubusercontent.com/ItzzExcel/black-neptune-theme/refs/heads/main/theme.css
 ```
 
 
