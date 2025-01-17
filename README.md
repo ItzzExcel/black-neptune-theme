@@ -1,5 +1,5 @@
 # black-neptune-theme
-Full black and white theme for the TIDAL modificated client, Neptune. Based in the ShadowX Theme for Spicetify.
+Full black and white theme for the [TIDAL modificated client, Neptune](https://github.com/uwu/neptune). Based in the ShadowX Theme for Spicetify.
 
 > [!NOTE]  
 > The theme may not work as expected loading it from the URL since looks like it keeps saving the cached information. Otherwise, you can use [Themer from Inrixia](https://github.com/Inrixia/neptune-plugins?tab=readme-ov-file#themer) as a solution pasting the CSS into the editor.
