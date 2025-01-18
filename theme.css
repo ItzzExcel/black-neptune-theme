@@ -145,7 +145,6 @@
 [class^="contextMenu"]>div {
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(15px);
-    filter: saturate(5);
     border: 1px solid var(--wave-color-opacity-contrast-fill-ultra-thin);
 }
 
@@ -154,7 +153,7 @@ button[data-test="close-now-playing"],
 button[data-test="play-all"],
 button[data-test="shuffle-all"] {
     color: black;
-    background-color: var(--wave-color-solid-accent-fill) !important;
+    background-color: var(--wave-color-solid-accent-fill);
     border-radius: 12px;
 }
 
@@ -195,4 +194,18 @@ button[data-test="close-now-playing"]:hover {
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(15px);
     border: 1px solid var(--wave-color-opacity-contrast-fill-ultra-thin);
+}
+
+[data-wave-color=textUrl] {
+    color: var(--wave-color-solid-accent-fill);
+}
+
+[class^="smallHeader"] {
+    margin-top: 7.5px;
+}
+
+[data-test="play-all"]>div>*, [data-test="shuffle-all"]>div>*, [data-test="play-all"], [data-test="shuffle-all"] {
+    color: var(--wave-color-solid-accent-fill) !important;
+    background-color: transparent !important;
+
 }
