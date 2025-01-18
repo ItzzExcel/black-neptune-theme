@@ -19,11 +19,12 @@
     --track-vibrant-color: white !important;
     --wave-color-opacity-contrast-fill-ultra-thin: #fffafa1a !important;
     --wave-color-solid-rainbow-yellow-darkest: #fffafa1a !important;
+    --wave-color-solid-accent-dark: gray;
 }
 
 [class^="_wave-badge-color-max"] {
     color: black !important;
-    background-color: white;
+    background-color: var(--wave-color-solid-accent-fill);
     border-radius: 3px;
 }
 
@@ -32,30 +33,29 @@
 }
 
 [class^="_wave-badge"] {
-    background-color: white;
+    background-color: var(--wave-color-solid-accent-fill);
     border-radius: 4px;
     color: black;
 }
 
 [class^="progressBarWrapper"] {
-    color: white !important;
+    color: var(--wave-color-solid-accent-fill) !important;
 }
 
 [class^="sidebarItem"]>span {
-    color: gray;
+    color: var(--wave-color-solid-accent-dark);
 }
 
 [class^="sidebarItem"]:hover span {
-    color: white;
+    color: var(--wave-color-solid-contrast-fill);
 }
 
-
 [class^="sidebarItem"] [class^="active"]>span {
-    color: gray !important;
+    color: var(--wave-color-solid-accent-dark) !important;
 }
 
 [class^="active"] {
-    color: white !important;
+    color: var(--wave-color-solid-accent-fill) !important;
 }
 
 [class^="ReactVirtualized__Grid"] {
@@ -73,7 +73,7 @@
 }
 
 [class^="explicitBadge"] {
-    color: white;
+    color: var(--wave-color-solid-accent-fill);
 }
 
 [class^="viewAllButton"] {
@@ -89,13 +89,13 @@
 }
 
 [class^="headerButtons"]>button {
-    background-color: white !important;
+    background-color: var(--wave-color-solid-accent-fill) !important;
     color: black;
 }
 
 [class^="container"]>[class^="navigationArrows"] {
     color: black;
-    background-color: white !important;
+    background-color: var(--wave-color-solid-accent-fill) !important;
     border-radius: 4px;
 }
 
@@ -121,7 +121,7 @@
 }
 
 [class^="tooltipContainer"]>button {
-    background-color: white;
+    background-color: var(--wave-color-solid-accent-fill);
     color: black;
 }
 
@@ -133,8 +133,9 @@
     color: rgb(170, 170, 170) !important;
 }
 
-[class^="tableRow"]:hover, [data-test-is-playing="true"] {
-    color: white !important;
+[class^="tableRow"]:hover,
+[data-test-is-playing="true"] {
+    color: var(--wave-color-solid-accent-fill) !important;
 }
 
 [class^="actionList"] {
@@ -150,7 +151,7 @@ button[data-test="close-now-playing"],
 button[data-test="play-all"],
 button[data-test="shuffle-all"] {
     color: black;
-    background-color: white !important;
+    background-color: var(--wave-color-solid-accent-fill) !important;
     border-radius: 12px;
 }
 
@@ -160,12 +161,12 @@ button[data-test="close-now-playing"]:hover {
     background-color: lightgray !important;
 }
 
-.neptune-switch-checkbox:checked + .neptune-switch {
+.neptune-switch-checkbox:checked+.neptune-switch {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
 [data-test="navigation-arrows"]>button {
-    background-color: white !important;
+    background-color: var(--wave-color-solid-accent-fill) !important;
     color: black !important;
     border-radius: 5px;
 }
