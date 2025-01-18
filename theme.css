@@ -142,8 +142,11 @@
     background-color: #1a1a1a;
 }
 
-[class^="contextMenu"]>[class^="footerContainer"] {
-    background-color: #1a1a1a;
+[class^="contextMenu"]>div {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(15px);
+    filter: saturate(5);
+    border: 1px solid var(--wave-color-opacity-contrast-fill-ultra-thin);
 }
 
 button[data-test="request-fullscreen"],
@@ -174,4 +177,22 @@ button[data-test="close-now-playing"]:hover {
 [data-test="navigation-arrows"]>button:disabled {
     background-color: lightgray !important;
     opacity: 1;
+}
+
+[data-test="main-layout-header"] {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(15px);
+    border-bottom: 1px solid var(--wave-color-opacity-contrast-fill-ultra-thin);
+}
+
+[data-test="feed-sidebar"] {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(15px);
+    border: 1px solid var(--wave-color-opacity-contrast-fill-ultra-thin);
+}
+
+[data-test="stream-metadata"] {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(15px);
+    border: 1px solid var(--wave-color-opacity-contrast-fill-ultra-thin);
 }
