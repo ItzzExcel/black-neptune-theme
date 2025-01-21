@@ -172,7 +172,10 @@ button[data-test="close-now-playing"]:hover {
     opacity: 1;
 }
 
-[class^="contextMenu"]>div, [data-test="main-layout-header"], [data-test="feed-sidebar"], [data-test="stream-metadata"] {
+[class^="contextMenu"]>div,
+[data-test="main-layout-header"],
+[data-test="feed-sidebar"],
+[data-test="stream-metadata"] {
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(15px);
     border: 1px solid var(--wave-color-opacity-contrast-fill-ultra-thin);
@@ -186,8 +189,14 @@ button[data-test="close-now-playing"]:hover {
     margin-top: 7.5px;
 }
 
-[data-test="play-all"]>div>*, [data-test="shuffle-all"]>div>*, [data-test="play-all"], [data-test="shuffle-all"] {
+[data-test="play-all"]>div>*,
+[data-test="shuffle-all"]>div>*,
+[data-test="play-all"],
+[data-test="shuffle-all"] {
     color: var(--wave-color-solid-accent-fill) !important;
     background-color: transparent !important;
+}
 
+[class^="__NEPTUNE_PAGE"] {
+    margin-top: 40px;
 }
